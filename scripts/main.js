@@ -24,6 +24,12 @@ $(document).ready(function(){
         spacing: 16.00
     });
 
+    $('#hero-slider').slick({
+        arrows: false,
+        dots: true,
+        appendDots: $("#slider-container .slider-after")
+    });
+
     $('nav ul li a').click(function(){
         //console.clear();
         $("nav ul li").children().removeClass("active-link");
