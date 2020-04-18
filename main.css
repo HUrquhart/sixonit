@@ -47,7 +47,7 @@ article.LWP{
     margin-top: -80px;
 }
 
-article.team-profile{
+article.team-profile, article.overview{
     padding: 80px 0;
     margin: 80px 0;
     background-color: #0a0e12;
